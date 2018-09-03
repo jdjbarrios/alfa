@@ -1,0 +1,14 @@
+version: 0.2
+
+env:
+variables:
+SOLUTION: .\solutionName.sln
+DOTNET_FRAMEWORK: numberVersion
+
+phases:
+build:
+commands:
+  - commandText
+artifacts:
+files:
+- Path files compiled
